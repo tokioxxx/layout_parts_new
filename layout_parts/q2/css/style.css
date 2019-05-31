@@ -16,8 +16,8 @@
   }
 
   .q2__content__text {
+    word-break: break-all;
     font-size: 18px;
-    padding: 1px; 
     line-height: 22px;
   }
 
