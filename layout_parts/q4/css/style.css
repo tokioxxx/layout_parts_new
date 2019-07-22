@@ -1,7 +1,58 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
+.container{
+  padding: 20px;
+}
+
 .content_box{
+  padding: 20px;
+  box-sizing: border-box;
   background: #eff3f4;
+}
+
+.q4_top{
+  width: 100%;
+  display: table;
+  margin-top: 20px;
+}
+
+.q4_top:first-child{
+  margin-top: 0;
+}
+
+.a{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pink{
+  background: #fdc8b8;
+  width: 100px;
+  
+}
+.purple{
+  background: #e0abd9;
+}
+
+.blue{
+  width: 100px;
+  background: #b6d8ed;
+}
+
+.yellow{
+  background: #e5d32e;
+}
+
+.red{
+  background: #ec8f9a 
+}
+
+.green{
+  width: 500px;
+  background: #8fdcad
 }
 /* 回答はここに書いてね */
