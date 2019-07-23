@@ -2,16 +2,16 @@
 
 /* 回答はここに書いてね */
 
-.q5{
+.q5__content{
   position: relative;
   background: #eff3f4;
   width: 500px;
   height: 500px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .color__box{
-  width:100px;
+  width: 100px;
   position: absolute; 
   text-align: center;
   font-size: 30px;
