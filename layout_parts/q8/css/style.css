@@ -55,15 +55,6 @@
   padding: 0 25px;
 }
 
-
-
-
-
-
-
-
-
-
 .q8__form{
   width:700px;
   background-color: #ECF1F2;
@@ -83,12 +74,12 @@
 
 .form__title:before{
   position: absolute;
-  width:100%;
+  width: 100%;
   background-color: #ccc;
-  height:1px;
-  left:0;
+  height: 1px;
+  left: 0;
   content: "";
-  top:50%;
+  top: 50%;
 }
 
 .title__text{
@@ -100,23 +91,21 @@
   background-color: #ECF1F2;
 }
 
-
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
 }
 
-
 .left__items > li:first-child{
   margin-top: 0px;
 }
 
 .left__title{
-   float: left;
+  float: left;
   text-align: right;
-   width: 100px;
-   line-height: 25px;
+  width: 100px;
+  line-height: 25px;
 }
 
 .q8__input{
@@ -128,9 +117,9 @@
   font-size: 12px;
   box-sizing: border-box;
 }
+
 .left__items{
   margin-bottom: 20px;
-  
 }
 
 .left__items > li {
@@ -139,11 +128,13 @@
 
 .left__content{
   float: right;
-  width:180px;
+  width: 180px;
 }
+
 .check-box{
   text-align: right;
 }
+
 .q8__checkbox__text{
   position: relative;
   display: inline-block;
@@ -163,12 +154,13 @@
   margin-top: -9px;
   background-color: #fff;
   border: 1px solid #ccc;
-  content: '';
+  content: "";
 }
 
 .left-btn{
   text-align: right;
 }
+
 .left-btn-btn{
   padding: 0 10px;
   border-radius: 5px;
@@ -196,23 +188,25 @@
   resize: none;
   border: none;
 }
+
 .red{
   color: #F00;
 }
 
 .select-body{
   width: 100%;
-    padding: 5px;
-    border-radius: 3px;
-    background-color: #FFF;
-    font-size: 12px;
-    line-height: 12px;
-    box-sizing: border-box;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    -webkit-appearance:none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
 }
+
 .q8__select:after{
   display: block;
   position: absolute;
@@ -223,13 +217,17 @@
   border-right: 2px solid #E5E5E5;
   border-bottom: 2px solid #E5E5E5;
   transform: rotate(45deg);
-  content: "";
+  content: '';
   pointer-events: none;
 }
+
+.q8__radio{
+  cursor: pointer;
+}
 .radio__text{
-      position: relative;
-    display: inline-block;
-    padding: 3px 3px 3px 20px;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
 }
 
 .radio__text:before {
@@ -251,5 +249,39 @@
 
 .q8__select{
   position: relative;
+}
+
+.q8__input:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.left-btn-btn:active{
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
+.check__box__btn:checked + .q8__checkbox__text:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+.q8__input2:checked + .radio__text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
 }
 /* 回答はここに書いてね */
