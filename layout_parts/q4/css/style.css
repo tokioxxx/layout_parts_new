@@ -12,17 +12,17 @@
   background: #eff3f4;
 }
 
-.q4_top{
+.q4_content{
   width: 100%;
   display: table;
   margin-top: 20px;
 }
 
-.q4_top:first-child{
+.q4_content:first-child{
   margin-top: 0;
 }
 
-.a{
+.q4__content__box{
   display: table-cell;
   padding: 20px;
   text-align: center;
@@ -32,7 +32,6 @@
 .pink{
   background: #fdc8b8;
   width: 100px;
-  
 }
 .purple{
   background: #e0abd9;
