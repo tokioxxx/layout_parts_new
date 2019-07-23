@@ -6,22 +6,22 @@
 }
 
 .text{
-  display:inline-block;
+  display: inline-block;
   background: #e6f2ff;
   width:  90px;
   padding: 10px 0;
 }
 .margin{
   padding: 10px;
-  width:  70px;
+  width: 70px;
 }
 
 .margin__text{
   text-align: center;
   margin: 0 auto;
-  width: 70px;
+  width: 90px;
   background: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .around1{
@@ -29,16 +29,16 @@
 }
 
 .table{  
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: center;
   display: table-cell;
-  width:50px;
+  width: 50px;
   background: #ecf1f2; 
 }
 
 .table__text{
   background: #fff; 
-  padding:10px;
+  padding: 10px;
   display: inline-block
 }
 
@@ -50,17 +50,17 @@
 
 .flex__text{
   background: #fff;
-  padding:10px;
+  padding: 10px;
 }
 
-.stable{
+.table{
   position: relative;
 }
 
-.stable__text{
+.table__text{
   position: absolute;
   margin: auto;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -72,8 +72,8 @@
 
 .flexble__text{
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   text-align: center;
   transform: translate(-50%,-50%);
 }
