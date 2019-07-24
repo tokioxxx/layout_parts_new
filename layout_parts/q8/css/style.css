@@ -116,6 +116,7 @@
   line-height: 12px;
   font-size: 12px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .left__items{
@@ -170,6 +171,7 @@
   font-size: 16px;
   line-height: 26px;
   border: none;
+  outline: none;
 }
 
 .right{
@@ -187,6 +189,7 @@
   padding: 10px;
   resize: none;
   border: none;
+  outline: none;
 }
 
 .red{
@@ -283,5 +286,9 @@
   background-color: #00BCD4;
   border-radius: 50%;
   content: '';
+}
+
+.q8__right__text:focus {
+  box-shadow: 0 0 7px #00BCD4;
 }
 /* 回答はここに書いてね */

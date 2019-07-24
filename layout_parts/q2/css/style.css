@@ -1,18 +1,17 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix:after {
+/* .clearfix:after {
   display: block;
   content: "";
   clear: both;
-}
+} */
 
 .q2__content {
-  width: 940px;
+  width: 900px;
   background-color: #eff3f4;;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
   }
 
   .q2__content__text {
@@ -22,13 +21,17 @@
   }
 
   .right{
-    margin:0 20px 10px 0;
+    margin-right:20px;
     float:left;
+    margin-bottom: 10px;
   }
 
   .left{
-    margin:0 0 10px 20px;
+    margin-left: 20px;
     float:right;
+    margin-bottom: 10px;
   }
 
+
+  
 /* 回答はここに書いてね */

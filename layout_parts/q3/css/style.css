@@ -6,38 +6,33 @@
   border: 1px solid #dedede;
   table-layout: fixed;
 }
-th,td{
+
+.q3__content th,
+.q3__content td{
   border: solid;
   border-color:#dedede;
   border-width: 1px;
   padding: 10px;
 } 
 
-tr:nth-child(2n+3){
- background-color:#eff3f4;
-}
-
-tr th:nth-child(1){
-  background: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-tr:nth-child(1){
-  background: #2244aa; 
-  font-size: 18px;
-  line-height: 26px;
-}
-
-tr:nth-child(6){
-  border-top-style: dashed;
-  border-color: #000000;
-  border-width: 2px;
-}
-
-td{
+.q3__content td{
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+}
+
+.q3__content th{
+  background: #2244aa; 
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.q3__content > tbody > tr:nth-child(even) {
+  background-color: #ECF1F2;
+}
+
+.q3__content > tbody > tr:last-child {
+  border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
